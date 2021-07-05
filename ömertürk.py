@@ -11,6 +11,9 @@ for anahtar in json_dosya:
 		print("Adım    : ", json_dosya[anahtar][0]["Ad"])
 		print("Soyadım : ", json_dosya[anahtar][0]["Soyad"])
 
+
+print("İsmim   : ", json_dosya["kimlik"][0]["Ad"]+ " " + json_dosya["kimlik"][0]["Soyad"])
+
 dosya.close()
 
 
